@@ -1,0 +1,28 @@
+{
+  "name": "githubmarketingvisualizations",
+  "version": "1.0.0",
+  "description": "Giving you aggregate viewership information for all your GitHub repos!",
+  "main": "app.js",
+  "dependencies": {
+    "@octokit/rest": "^16.28.9",
+    "body-parser": "^1.19.0",
+    "ejs": "^2.7.1",
+    "express": "^4.17.1",
+    "poloniex-api-node": "^2.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DunnCreativeSS/gitMarketingVisualization.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DunnCreativeSS/gitMarketingVisualization/issues"
+  },
+  "homepage": "https://github.com/DunnCreativeSS/gitMarketingVisualization#readme"
+}
